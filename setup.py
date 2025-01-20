@@ -37,10 +37,6 @@ setup(name='sigver',
           'matplotlib>=2.0',
           'tqdm',
           'scikit-image',
-          'visdom_logger'
       ],
       python_requires='>=3',
-      dependency_links=[
-          'git+https://github.com/luizgh/visdom_logger.git@master#egg=visdom_logger-0'
-      ],
       packages=find_packages())
